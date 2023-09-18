@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ApiPixSicoob:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ApiPixSicoob_jar</output-path>
+    <root id="archive" name="ApiPixSicoob.jar">
+      <element id="module-output" name="ApiPixSicoob" />
+      <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" />
+    </root>
+  </artifact>
+</component>
