@@ -1,10 +1,10 @@
 package br.com.virtual;
 
 class RetornoApi {
-    private Boolean erro; //true: COM ERRO; false: SEM ERRO;
-    private Integer status;
-    private String mensagemSucesso;
-    private String mensagemErro;
+    private final Boolean erro; //true: COM ERRO; false: SEM ERRO;
+    private final Integer status;
+    private final String mensagemSucesso;
+    private final String mensagemErro;
 
     public RetornoApi(Boolean erro, Integer status, String mensagemSucesso, String mensagemErro) {
         this.erro = erro;
